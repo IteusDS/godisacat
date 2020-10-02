@@ -1,0 +1,627 @@
+/* Estilos Gerais */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  filter: grayscale(100%);
+}
+
+h3 {
+  font-size: 65px;
+  color: #fff;
+  font-family: "Kumbh Sans", sans-serif;
+  z-index: 9;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 62px;
+}
+/* Fim de estilos gerais*/
+/*Head*/
+
+.header {
+  background: url("https://i.ibb.co/ZKqsS6M/header.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.header h1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-family: "Kumbh Sans", sans-serif;
+  z-index: 9;
+  position: relative;
+  top: 319px;
+  float: right;
+  margin-right: 200px;
+  text-transform: uppercase;
+  animation: fadein 5s linear;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header h1:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 3px;
+  background: #fff;
+  margin: 8px auto;
+}
+
+.header h1:before {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 3px;
+  background: #fff;
+  margin: 8px auto;
+  margin-bottom: 15px;
+}
+
+.header ul {
+  text-align: right;
+}
+
+.header ul li {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding-right: 10px;
+  font-family: "Grandstander", cursive;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.header ul li a:hover {
+  color: rgb(124, 124, 124);
+}
+.header ul li:nth-of-type(4) {
+  margin-right: 200px;
+}
+.nav_bar {
+  background-color: #000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  z-index: 10;
+  animation: fadein 5s linear;
+}
+
+.header ul li a:hover:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  color: rgb(124, 124, 124);
+}
+
+.header ul li a {
+  color: #fff;
+  animation: fadein 5s linear;
+}
+
+.catinhos h3:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+.catinho {
+  clear: both;
+  display: block;
+  color: black;
+}
+
+.catinhos h3 {
+  font-size: 65px;
+  color: #000;
+  font-family: "Kumbh Sans", sans-serif;
+  z-index: 9;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  animation: fadein 8s linear;
+}
+.portfolio_g1 img {
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  position: relative;
+  border: #fff;
+  border-style: solid;
+  border-width: 10px;
+  animation: fadein 5s linear;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2 ease-in;
+  transition: 0.2 ease-in;
+}
+.portfolio_g1 img:hover {
+  border: #000;
+  border-width: 10px;
+  border-style: double;
+  filter: none;
+}
+
+.portfolio_g1 {
+  margin: 0% auto;
+  animation: fadein 5s linear;
+  text-align: center;
+}
+
+.mimir h3 {
+  font-size: 65px;
+  color: #fff;
+  font-family: "Kumbh Sans", sans-serif;
+  z-index: 9;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 62px;
+}
+
+.mimir img {
+  border-color: black;
+}
+
+.mimir img:hover {
+  border-color: #fff;
+}
+
+.mimir h3:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 3px;
+  background: #fff;
+  margin: 8px auto;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  animation: fadein 5s linear;
+  margin-top: 100px;
+}
+
+.footer a {
+  margin-left: 190px;
+  font-size: 12px;
+  animation: fadein 5s linear;
+  display: inline-block;
+}
+.footer p {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 190px;
+  display: inline-block;
+  float: right;
+  animation: fadein 5s linear;
+}
+
+.footer .fa {
+  margin-left: 0;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.footer .fa:hover {
+  margin-left: 0;
+  animation: spin 10s linear infinite;
+}
+.mimir {
+  background: #000;
+  padding-top: 20px;
+  padding-bottom: 200px;
+  margin-top: 200px;
+}
+
+.brabinhos h3 {
+  color: #000;
+}
+
+.brabinhos h3:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+
+.foot1 {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 765px) and (max-width: 979px) {
+  .header ul li:nth-of-type(4) {
+    margin-right: 0;
+  }
+  .header ul {
+    margin: 0 15px 15px 0px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .header ul li {
+    text-align: left;
+    margin-left: 15px;
+    padding-left: 0;
+    font-size: 14px;
+  }
+
+  .header {
+    width: 100%;
+    height: 600px;
+    background: #000;
+
+    background-size: cover;
+  }
+
+  .header h1 {
+    text-align: center;
+    font-size: 45px;
+    top: 250px;
+    float: none;
+    margin: 0px;
+  }
+
+  .catinhos h3 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .portfolio_g1 img {
+    max-width: 300px;
+    width: 400px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+  }
+
+  .portfolio_g1 {
+    margin: 5px 33% 5px 33%;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .mimir h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .brabinhos {
+    margin-bottom: 50px;
+  }
+  .brabinhos h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer a {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  .footer {
+    text-align: center;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-top: 7px;
+    font-size: 8px;
+    line-height: 15px;
+    font-family: "Grandstander", cursive;
+    padding-bottom: 3px;
+  }
+
+  .footer p {
+    text-align: center;
+    margin: 0px;
+  }
+  .footer {
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 8px;
+  }
+  .footer p {
+    padding: 0%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  .header ul li:nth-of-type(4) {
+    margin-right: 0;
+  }
+  .header ul {
+    margin: 0 15px 15px 0px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .header ul li {
+    text-align: left;
+    margin-left: 15px;
+    padding-left: 0;
+
+  }
+
+  .header {
+    width: 100%;
+    height: 300px;
+    background: #000;
+
+    background-size: cover;
+  }
+
+  .header h1 {
+    text-align: center;
+    font-size: 40px;
+    top: 120px;
+    float: none;
+    margin: 0px;
+  }
+
+  .catinhos h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .portfolio_g1 img {
+    max-width: 250px;
+    width: 250px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .portfolio_g1 {
+    margin: 0px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .mimir h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .brabinhos {
+    margin-bottom: 50px;
+  }
+  .brabinhos h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer a {
+    margin: 0%;
+    padding: 0px;
+    text-align: center;
+    float: none;
+
+    text-align: center;
+  }
+  .footer {
+    margin: 0%;
+    text-align: center;
+    padding-right: 5vh;
+    position: fixed;
+
+    z-index: 8;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-top: 7px;
+    font-size: 8px;
+    line-height: 15px;
+    font-family: "Grandstander", cursive;
+    padding-bottom: 3px;
+  }
+
+  .footer p {
+    padding: 0px;
+    margin: 0%;
+
+    float: none;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 5vh;
+  }
+  .foot1 {
+    text-align: center;
+    display: block;
+  }
+  .fa {
+    text-align: center;
+    margin: 0%;
+  }
+  .footer {
+    padding: 1vh 0px 1vh 0px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1em;
+
+  }
+  .footer p {
+    padding: 0%;
+
+  }
+
+  img{
+    min-width: 80%;
+ 
+  }
+  .content-pictures{
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header ul li:nth-of-type(4) {
+    margin-right: 0vh;
+  }
+  .header ul li:nth-of-type(1) {
+    margin-left: 1vh;
+  }
+  .header ul {
+    margin: 0 auto;
+    text-align: center;
+
+    padding: 0%;
+  }
+  .header ul li {
+    text-align: left;
+    margin-left: 0px;
+
+    font-size: 10px;
+  }
+
+  .nav_bar ul li {
+    width: 100%;
+    text-align: left;
+    margin: 0% auto;
+  }
+  .header ul li {
+    margin: 0% auto;
+    padding: 12px 7px 12px 0px;
+    text-align: left;
+  }
+  .nav_bar ul {
+    width: 100%;
+    text-align: left;
+    margin: 0% auto;
+    padding: 0%;
+  }
+  .nav_bar {
+    width: 100%;
+    text-align: left;
+    margin: 0% auto;
+    padding: 0px;
+  }
+  .header {
+    width: 100%;
+    height: 300px;
+    background: #000;
+    text-align: left;
+    margin: 0% auto;
+    padding: 0%;
+  }
+
+  .header h1 {
+    text-align: center;
+    font-size: 40px;
+    top: 120px;
+    float: none;
+    margin: 0px;
+  }
+
+  .catinhos h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .portfolio_g1 img {
+    max-width: 250px;
+    width: 250px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .portfolio_g1 {
+    margin: 0px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .mimir h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .brabinhos {
+    margin-bottom: 50px;
+  }
+  .brabinhos h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer a {
+    margin: 0%;
+    padding: 0px;
+    text-align: center;
+    float: none;
+
+    text-align: center;
+  }
+  .footer {
+    margin: 0%;
+    text-align: center;
+    padding-right: 0vh;
+
+    z-index: 8;
+    width: 100%;
+
+    bottom: 0;
+    padding-top: 7px;
+    font-size: 8px;
+    line-height: 15px;
+    font-family: "Grandstander", cursive;
+    padding-bottom: 3px;
+  }
+
+  .footer p {
+    padding: 0px;
+    margin: 0%;
+
+    float: none;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 5vh;
+  }
+  .foot1 {
+    text-align: center;
+    display: block;
+  }
+  .fa {
+    text-align: center;
+    margin: 0%;
+  }
+
+  .footer {
+    padding: 3vh 0px 3vh 30px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 8px;
+  }
+  .footer p {
+    padding: 0%;
+  }
+}
