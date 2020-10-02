@@ -479,6 +479,10 @@ ul li a{
     font-size: 1em;
 
   }
+
+  .footer a{
+    padding-bottom: 4px;
+  }
   .footer p {
     padding: 0%;
 
@@ -486,6 +490,7 @@ ul li a{
 footer span{
   padding: 0 2px;
 }
+
   img{
     min-width: 80%;
  
