@@ -231,7 +231,7 @@ footer span{
 }
 
 ul li a{
-  font-size: 20px;
+  font-size: 15px;
 }
 .footer .fa {
   margin-left: 0;
@@ -635,7 +635,7 @@ footer span{
   }
 
   .footer {
-    padding: 3vh 0px 3vh 30px;
+    padding: 3vh 0px 3vh 0px;
     text-align: center;
     margin: 0 auto;
     font-size: 8px;
