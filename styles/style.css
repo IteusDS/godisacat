@@ -214,7 +214,7 @@ h3 {
   display: inline-block;
 }
 .footer p {
-  font-size: 12px;
+  font-size: 16px;
   text-align: right;
   margin-right: 190px;
   display: inline-block;
@@ -222,6 +222,17 @@ h3 {
   animation: fadein 5s linear;
 }
 
+.footer a{
+  font-size: 16px;
+}
+
+footer span{
+  padding: 0px 0px 0px 4px;
+}
+
+ul li a{
+  font-size: 20px;
+}
 .footer .fa {
   margin-left: 0;
   text-transform: uppercase;
@@ -346,10 +357,11 @@ h3 {
     padding: 3px 0px 3px 0px;
     text-align: center;
     margin: 0 auto;
-    font-size: 8px;
+    font-size: 15px;
   }
   .footer p {
     padding: 0%;
+  
   }
 }
 
@@ -472,7 +484,7 @@ h3 {
 
   }
 footer span{
-  padding: 0 5px;
+  padding: 0 2px;
 }
   img{
     min-width: 80%;
