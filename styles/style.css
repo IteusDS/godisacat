@@ -471,7 +471,9 @@ h3 {
     padding: 0%;
 
   }
-
+footer span{
+  padding: 0 5px;
+}
   img{
     min-width: 80%;
  
